@@ -46,7 +46,7 @@
         vbdHex(3,(int(top->data_out)>>8)&0xF);
         vbdHex(2,(int(top->data_out)>>4)&0xF);
         vbdHex(1,(int(top->data_out))&0xF);
-        //vbdBar(top->data_out & 0xFF);
+        vbdBar(top->data_out & 0xFF);
         vbdCycle(i+1);
         // -----------end of Vbuddy output section
 
